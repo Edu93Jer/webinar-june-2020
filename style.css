@@ -42,7 +42,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 40px;
   max-width: 700px;
-  min-height: 700px;
+  min-height: 300px;
   background-color: aliceblue;
   box-shadow: 0px 1px 2px gray;
 }
@@ -59,8 +59,8 @@ h2 {
 }
 
 .images img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin: 20px;
 }
 
@@ -68,15 +68,30 @@ h2 {
   background-color: deepskyblue;
 }
 
-/* Media queries */
+.container {
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.btn {
+  background: deepskyblue;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 800;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
 @media only screen and (max-width: 425px) {
   h2 {
     text-align: center;
     }
-  
+
   .avatar {
     width: 100%;
     height: auto;
+    padding: 20px;
+    margin: 0;
   }
 }
