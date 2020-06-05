@@ -68,6 +68,7 @@ h2 {
 
 .projects {
   background-color: deepskyblue;
+  box-sizing: border-box;
 }
 
 .container {
